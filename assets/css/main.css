@@ -241,6 +241,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	.wrapper.spotlight {
+		background-color: grey;
+		border-radius:10px; /* round corners */
+    	box-shadow:5px 5px 5px 5px #000; /* add shadow */
+	}
+
 /* Container */
 
 	.container {
@@ -271,6 +277,16 @@ input, select, textarea {
 
 		.container.max {
 			width: 100%;
+		}
+
+		.skill-container {
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			width: 80%;
+			height: 10em;
+			flex-wrap: wrap;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2033,6 +2049,58 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+		}
+
+		.devicon-python-plain-wordmark {
+			font-size: 2.5rem
+		}
+		
+		.devicon-java-plain-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-javascript-plain {
+			font-size: 2.5rem
+		}
+
+		.devicon-django-line-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-nodejs-plain-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-express-original-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-d3js-plain {
+			font-size: 2.5rem
+		}
+
+		.devicon-git-plain-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-html5-plain-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-css3-plain-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-amazonwebservices-plain-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-mysql-plain-wordmark {
+			font-size: 2.5rem
+		}
+
+		.devicon-swift-plain {
+			font-size: 2.5rem
 		}
 
 /* Image */
